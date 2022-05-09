@@ -26,6 +26,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="./assets/css/gallery.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -340,7 +341,25 @@
             </tbody>
           </table>
         </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="Gallery">
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <img src="./assets/img/products/Cutter-CNC.jpeg" />
+            <video width="320" height="240" autoplay="" muted="" loop="">
+              <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4" />
+            </video>
+            <video width="320" height="240" autoplay="" muted="" loop="">
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+        </div>
         <div class="tab-pane fade" id="videos" role="tabpanel" aria-labelledby="videos-tab">...</div>
         <div class="tab-pane fade" id="download" role="tabpanel" aria-labelledby="download-tab">...</div>
       </div>
@@ -449,14 +468,21 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
   <script src="assets/vendor/parallax/parallax.min.js"></script>
+  <!-- gallery -->
+  <script src="./assets/vendor/gallery.min.js"></script>
   <script>
     $(document).ready(function() {
       $('.parallax-window').parallax({
         imageSrc: './assets/img/products/parallax-banner/81_breadcrumb.png'
+
       });
+      JavaScriptGallery.initGallery();
     })
   </script>
+
+
 </body>
 
 </html>
