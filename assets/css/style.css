@@ -1313,6 +1313,12 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials {
+  background-image: url('../img/svg/bgblue.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
@@ -2447,4 +2453,49 @@ font {
   font-size: 16px;
   text-align: center;
   margin: 10px 0;
+}
+
+.whatsapp-icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  right: 8px;
+  bottom: 80px;
+  cursor: pointer;
+}
+
+.machine-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background-color: #4154f1;
+  padding: 8px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: -40px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: -40px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.machine-card .card-content p {
+  height: 100px;
 }
