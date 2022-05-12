@@ -2443,6 +2443,8 @@ section {
   color: #ffffff;
   background-color: #4154f1;
   border-color: #4154f1 #4154f1 #fff;
+  border-bottom: 1px solid #4154f1;
+
 }
 
 font {
