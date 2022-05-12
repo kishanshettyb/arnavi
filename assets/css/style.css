@@ -2499,3 +2499,37 @@ font {
 .machine-card .card-content p {
   height: 100px;
 }
+
+.form-control {
+  border-radius: 0px;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #ddd;
+}
+
+.Gallery iframe {
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.Gallery p {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.Gallery {
+  margin-top: 0;
+  display: flex !important;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.download-pdf img {
+  width: 60px;
+  height: auto;
+}
+
+.download-pdf div {
+  margin: 10px;
+}
