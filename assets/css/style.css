@@ -2545,3 +2545,10 @@ font {
 #videos-tab {
   display: none;
 }
+
+@media (max-width: 575.98px) {
+  .header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+  }
+}
