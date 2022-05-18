@@ -2525,6 +2525,7 @@ font {
   display: flex !important;
   text-align: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .download-pdf img {
@@ -2551,4 +2552,14 @@ font {
     max-height: 50px;
     margin-right: 6px;
   }
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.feature-box img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
 }
