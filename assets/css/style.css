@@ -2543,7 +2543,8 @@ font {
 }
 
 #contact-tab,
-#videos-tab {
+#videos-tab,
+#download-tab {
   display: none;
 }
 
@@ -2578,4 +2579,22 @@ font {
   background-color: #4154f124;
   clip: inherit !important;
   color: transparent;
+}
+
+.Gallery.config-gallery {
+  margin-bottom: 0;
+
+}
+
+.Gallery.config-gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.tab-pane {
+  text-align: justify;
+}
+
+.table th {
+  font-weight: normal;
 }
