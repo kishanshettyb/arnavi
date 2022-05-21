@@ -2563,3 +2563,19 @@ font {
   height: auto;
   margin-right: 10px;
 }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #4154f1;
+
+}
+
+.visually-hidden {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: block;
+  background-color: #4154f124;
+  clip: inherit !important;
+  color: transparent;
+}
