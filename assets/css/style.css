@@ -2598,3 +2598,22 @@ font {
 .table th {
   font-weight: normal;
 }
+
+@media (max-width: 575.98px) {
+  .whatsapp-icon img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .machine-card .card-content p {
+    height: auto;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+
+  .owl-carousel .owl-nav button.owl-next {
+    display: none;
+  }
+}
