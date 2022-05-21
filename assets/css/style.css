@@ -2621,4 +2621,9 @@ font {
     min-height: 200px;
     background: transparent;
   }
+
+  .about .content {
+    background-color: #f6f9ff;
+    padding: 15px;
+  }
 }
