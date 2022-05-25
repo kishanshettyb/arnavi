@@ -2627,3 +2627,9 @@ font {
     padding: 15px;
   }
 }
+
+@media (min-width: 768px) {
+  .contact .info-box {
+    height: 220px;
+  }
+}
