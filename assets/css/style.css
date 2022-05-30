@@ -2633,3 +2633,7 @@ font {
     height: 220px;
   }
 }
+
+.bb-light {
+  border-bottom: 1px solid #dddddd5c;
+}
