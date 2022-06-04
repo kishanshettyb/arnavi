@@ -2637,3 +2637,7 @@ font {
 .bb-light {
   border-bottom: 1px solid #dddddd5c;
 }
+
+.text-links {
+  color: #444444;
+}
