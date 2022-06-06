@@ -42,7 +42,7 @@
 	 */
 	let navbarlinks = select("#navbar .scrollto", true);
 	const navbarlinksActive = () => {
-		let position = window.scrollY + 200;
+		let position = window.scrollY + 50;
 		navbarlinks.forEach((navbarlink) => {
 			if (!navbarlink.hash) return;
 			let section = select(navbarlink.hash);
@@ -74,7 +74,7 @@
 		let elementPos = select(el).offsetTop;
 		window.scrollTo({
 			top: elementPos - offset,
-			behavior: "smooth",
+			behavior: "smooth"
 		});
 	};
 
@@ -189,32 +189,32 @@
 		loop: true,
 		autoplay: {
 			delay: 5000,
-			disableOnInteraction: false,
+			disableOnInteraction: false
 		},
 		slidesPerView: "auto",
 		pagination: {
 			el: ".swiper-pagination",
 			type: "bullets",
-			clickable: true,
+			clickable: true
 		},
 		breakpoints: {
 			320: {
 				slidesPerView: 2,
-				spaceBetween: 40,
+				spaceBetween: 40
 			},
 			480: {
 				slidesPerView: 3,
-				spaceBetween: 60,
+				spaceBetween: 60
 			},
 			640: {
 				slidesPerView: 4,
-				spaceBetween: 80,
+				spaceBetween: 80
 			},
 			992: {
 				slidesPerView: 6,
-				spaceBetween: 120,
-			},
-		},
+				spaceBetween: 120
+			}
+		}
 	});
 
 	/**
@@ -225,7 +225,7 @@
 		if (portfolioContainer) {
 			let portfolioIsotope = new Isotope(portfolioContainer, {
 				itemSelector: ".portfolio-item",
-				layoutMode: "fitRows",
+				layoutMode: "fitRows"
 			});
 
 			let portfolioFilters = select("#portfolio-flters li", true);
@@ -241,7 +241,7 @@
 					this.classList.add("filter-active");
 
 					portfolioIsotope.arrange({
-						filter: this.getAttribute("data-filter"),
+						filter: this.getAttribute("data-filter")
 					});
 					aos_init();
 				},
@@ -254,7 +254,7 @@
 	 * Initiate portfolio lightbox
 	 */
 	const portfolioLightbox = GLightbox({
-		selector: ".portfokio-lightbox",
+		selector: ".portfokio-lightbox"
 	});
 
 	/**
@@ -264,13 +264,13 @@
 		speed: 400,
 		autoplay: {
 			delay: 5000,
-			disableOnInteraction: false,
+			disableOnInteraction: false
 		},
 		pagination: {
 			el: ".swiper-pagination",
 			type: "bullets",
-			clickable: true,
-		},
+			clickable: true
+		}
 	});
 
 	/**
@@ -281,24 +281,24 @@
 		loop: true,
 		autoplay: {
 			delay: 5000,
-			disableOnInteraction: false,
+			disableOnInteraction: false
 		},
 		slidesPerView: "auto",
 		pagination: {
 			el: ".swiper-pagination",
 			type: "bullets",
-			clickable: true,
+			clickable: true
 		},
 		breakpoints: {
 			320: {
 				slidesPerView: 1,
-				spaceBetween: 40,
+				spaceBetween: 40
 			},
 
 			1200: {
-				slidesPerView: 3,
-			},
-		},
+				slidesPerView: 3
+			}
+		}
 	});
 
 	/**
@@ -309,7 +309,7 @@
 			duration: 1000,
 			easing: "ease-in-out",
 			once: true,
-			mirror: false,
+			mirror: false
 		});
 	}
 	window.addEventListener("load", () => {
